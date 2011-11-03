@@ -1,3 +1,9 @@
+# revision 20170
+# category Package
+# catalog-ctan /macros/latex/exptl/biblatex-contrib/historische-zeitschrift
+# catalog-date 2010-10-19 15:53:57 +0200
+# catalog-license lppl
+# catalog-version 0.9a
 Name:		texlive-historische-zeitschrift
 Version:	0.9a
 Release:	1
@@ -47,6 +53,7 @@ biblatex (version 0.8 or higher) as well as etoolbox (version
 %doc %{_texmfdistdir}/doc/latex/historische-zeitschrift/CHANGES
 %doc %{_texmfdistdir}/doc/latex/historische-zeitschrift/LIESMICH
 %doc %{_texmfdistdir}/doc/latex/historische-zeitschrift/README
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ biblatex (version 0.8 or higher) as well as etoolbox (version
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
