@@ -1,15 +1,15 @@
-# revision 20170
+# revision 27124
 # category Package
-# catalog-ctan /macros/latex/exptl/biblatex-contrib/historische-zeitschrift
-# catalog-date 2010-10-19 15:53:57 +0200
+# catalog-ctan /macros/latex/contrib/biblatex-contrib/historische-zeitschrift
+# catalog-date 2012-07-15 23:35:06 +0200
 # catalog-license lppl
-# catalog-version 0.9a
+# catalog-version 1.0
 Name:		texlive-historische-zeitschrift
-Version:	0.9a
-Release:	2
+Version:	1.0
+Release:	1
 Summary:	Biblatex style for the journal 'Historische Zeitschrift'
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/exptl/biblatex-contrib/historische-zeitschrift
+URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/historische-zeitschrift
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/historische-zeitschrift.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/historische-zeitschrift.doc.tar.xz
