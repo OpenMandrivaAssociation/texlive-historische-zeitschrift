@@ -1,12 +1,6 @@
-# revision 27124
-# category Package
-# catalog-ctan /macros/latex/contrib/biblatex-contrib/historische-zeitschrift
-# catalog-date 2012-07-15 23:35:06 +0200
-# catalog-license lppl
-# catalog-version 1.0
 Name:		texlive-historische-zeitschrift
-Version:	1.0
-Release:	9
+Version:	1.2
+Release:	1
 Summary:	Biblatex style for the journal 'Historische Zeitschrift'
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/historische-zeitschrift
@@ -38,12 +32,8 @@ biblatex (version 0.8 or higher) as well as etoolbox (version
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/historische-zeitschrift/bbx/historische-zeitschrift.bbx
-%{_texmfdistdir}/tex/latex/historische-zeitschrift/cbx/historische-zeitschrift.cbx
-%{_texmfdistdir}/tex/latex/historische-zeitschrift/lbx/historische-zeitschrift.lbx
-%doc %{_texmfdistdir}/doc/latex/historische-zeitschrift/CHANGES
-%doc %{_texmfdistdir}/doc/latex/historische-zeitschrift/LIESMICH
-%doc %{_texmfdistdir}/doc/latex/historische-zeitschrift/README
+%{_texmfdistdir}/tex/latex/historische-zeitschrift
+%doc %{_texmfdistdir}/doc/latex/historische-zeitschrift
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,21 +44,3 @@ biblatex (version 0.8 or higher) as well as etoolbox (version
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.0-1
-+ Revision: 812289
-- Update to latest release.
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 0.9a-2
-+ Revision: 752581
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 0.9a-1
-+ Revision: 718620
-- texlive-historische-zeitschrift
-- texlive-historische-zeitschrift
-- texlive-historische-zeitschrift
-- texlive-historische-zeitschrift
-
