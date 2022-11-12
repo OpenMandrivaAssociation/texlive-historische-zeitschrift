@@ -1,12 +1,12 @@
 Name:		texlive-historische-zeitschrift
-Version:	1.2
-Release:	2
+Version:	42635
+Release:	1
 Summary:	Biblatex style for the journal 'Historische Zeitschrift'
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/historische-zeitschrift
 License:	LPPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/historische-zeitschrift.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/historische-zeitschrift.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/historische-zeitschrift.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/historische-zeitschrift.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -23,12 +23,12 @@ biblatex (version 0.8 or higher) as well as etoolbox (version
 1.5 or higher).
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -37,7 +37,7 @@ biblatex (version 0.8 or higher) as well as etoolbox (version
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
