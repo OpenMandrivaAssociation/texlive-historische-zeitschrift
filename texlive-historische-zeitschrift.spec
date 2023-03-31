@@ -1,6 +1,6 @@
 Name:		texlive-historische-zeitschrift
 Version:	42635
-Release:	1
+Release:	2
 Summary:	Biblatex style for the journal 'Historische Zeitschrift'
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/historische-zeitschrift
