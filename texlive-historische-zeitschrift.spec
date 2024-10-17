@@ -3,7 +3,7 @@ Version:	42635
 Release:	2
 Summary:	Biblatex style for the journal 'Historische Zeitschrift'
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/historische-zeitschrift
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/historische-zeitschrift
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/historische-zeitschrift.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/historische-zeitschrift.doc.r%{version}.tar.xz
